@@ -1,14 +1,7 @@
-OUTDATED
-===========
-The Google Code project has seen a revival including a number of important updates. I do not have time to manage maintaining compatibility and integrating the improvements. I believe the Google Code project now addresses most of the issues this project solved, please see [Google Code project](http://code.google.com/p/py-bcrypt/).
-
-
-
-
-Python BCrypt (Old out of date README as of 2014)
+Python BCrypt
 ============
 
-[![Build Status](https://travis-ci.org/wcdolphin/python-bcrypt.png?branch=master)](https://travis-ci.org/wcdolphin/py-bcrypt)
+[![Build Status](https://travis-ci.org/DisruptiveLabs/python-bcrypt.png?branch=master)](https://travis-ci.org/DisruptiveLabs/py-bcrypt)
 
 
 An up to date fork of py-bcrypt, Python 3 and Python 2 compatible, compiles on Windows, Mac, Linux.

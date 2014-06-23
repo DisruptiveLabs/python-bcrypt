@@ -29,9 +29,9 @@ if __name__ == '__main__':
         sources = ['bcrypt/bcrypt_python.c', 'bcrypt/blowfish.c','bcrypt/bcrypt.c'])
     setup(name = "python-bcrypt",
           version = VERSION,
-          author = "Damien Miller, maintained by @wcdolphin",
-          author_email = "djm@mindrot.org",
-          url = "https://github.com/wcdolphin/py-bcrypt",
+          author = "Damien Miller, maintained by @kageurufu",
+          author_email = "kage.urufu@gmail.com",
+          url = "https://github.com/DisruptiveLabs/python-bcrypt",
           description = "Blowfish password hashing",
           long_description = """\
 py-bcrypt is an implementation the OpenBSD Blowfish password hashing
