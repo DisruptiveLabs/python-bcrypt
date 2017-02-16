@@ -2,6 +2,7 @@ Python BCrypt
 ============
 
 [![Build Status](https://travis-ci.org/DisruptiveLabs/python-bcrypt.png?branch=master)](https://travis-ci.org/DisruptiveLabs/py-bcrypt)
+[![PyPI version](https://badge.fury.io/py/python-bcrypt.svg)](https://badge.fury.io/py/python-bcrypt)
 
 
 An up to date fork of py-bcrypt, Python 3 and Python 2 compatible, compiles on Windows, Mac, Linux.

@@ -1,12 +1,23 @@
 language: python
 python:
-    - "2.6"
-    - "2.7"
-    - "3.2"
-    - "3.3"
-    - "pypy"
+- '2.6'
+- '2.7'
+- '3.2'
+- '3.3'
+- '3.4'
+- '3.5'
+- '3.6'
+- pypy
 install:
-    - python setup.py install
+- python setup.py install
 script:
-    - python test/test.py
-
+- python test/test.py
+deploy:
+  provider: pypi
+  user: kageurufu
+  password:
+    secure: jrvPZIvOG3KjsWaRkdgSxmniVyjJAVqgD7ZhPpYCHosIjfJoRVgyr7EOsGMK7g0bY2Xn63N3+A/9BSrCLgBOOdGE1WVOb+ucWdDORDPQmZ2y03y9fMNlgohypjJIVcSmuGNZPQFR1cJ2gw5J6UVVu+vMoKepnnZ7XP9rqjAwcqs=
+  on:
+    tags: true
+    distributions: sdist bdist_wheel
+    repo: DisruptiveLabs/python-bcrypt

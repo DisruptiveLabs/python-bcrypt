@@ -1,11 +1,11 @@
-README.md
-PKG-INFO
-LICENSE
-TODO
-setup.py
-bcrypt/__init__.py
-bcrypt/bcrypt.c
-bcrypt/bcrypt_python.c
-bcrypt/blowfish.c
-bcrypt/pybc_blf.h
-test/test.py
+include README.md
+include PKG-INFO
+include LICENSE
+include TODO
+include setup.py
+include bcrypt/__init__.py
+include bcrypt/bcrypt.c
+include bcrypt/bcrypt_python.c
+include bcrypt/blowfish.c
+include bcrypt/pybc_blf.h
+include test/test.py
